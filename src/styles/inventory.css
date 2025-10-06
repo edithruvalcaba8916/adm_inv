@@ -1,0 +1,19 @@
+.inventory-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.inventory-container input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.inventory-container img {
+  border-radius: 4px;
+}
+

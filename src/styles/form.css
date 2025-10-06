@@ -1,0 +1,14 @@
+.form-container {
+  background: #fff;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.form-container input,
+.form-container button {
+  width: 100%;
+  margin: 0.5rem 0;
+}

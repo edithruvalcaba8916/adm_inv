@@ -1,0 +1,22 @@
+[
+  {
+    "id": "P001",
+    "codigo": "001",
+    "nombre": "Teclado",
+    "descripcion": "Teclado mecánico",
+    "foto": "https://via.placeholder.com/60",
+    "categoria": "Electrónica",
+    "precio": 300,
+    "cantidad": 10
+  },
+  {
+    "id": "P002",
+    "codigo": "002",
+    "nombre": "Mouse",
+    "descripcion": "Mouse inalámbrico",
+    "foto": "https://via.placeholder.com/60",
+    "categoria": "Electrónica",
+    "precio": 150,
+    "cantidad": 20
+  }
+]

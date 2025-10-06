@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+
+import React, { useState } from 'react';
+import Reception from './components/Reception';
+import Search from './components/Search';
 import './App.css';
 
 function App() {
+  const [inventory, setInventory] = useState([
+    { code: 'A001', name: 'Manzana', qty: 50, price: 10 },
+    { code: 'B002', name: 'Naranja', qty: 30, price: 8 }
+  ]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="container">
+      <header>
+        <h1>Inventory Sprint Example</h1>
+        <p>Demostración: Módulo de recepción y búsqueda (Sprint 1)</p>
       </header>
+
+      <Reception inventory={inventory} setInventory={setInventory} />
+      <hr />
+      <Search inventory={inventory} />
     </div>
   );
 }
